@@ -7,7 +7,6 @@ const register = (element) => {
     x: element.getAttribute("x"),
     y: element.getAttribute("y"),
   };
-  console.log(gameRound);
   if (gameRound % 2 != 0 && element.innerHTML == "") {
     element.innerHTML = "X";
     coordinatesX.push(coordinates);
