@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+hmtl,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  margin-top: 3rem;
+  height: 30rem;
+  width: 30rem;
+  margin-inline: auto;
+  padding: 0;
+}
+
+li {
+  height: 10rem;
+  list-style: none;
+  display: flex;
+}
+
+button {
+  width: 33%;
+}
